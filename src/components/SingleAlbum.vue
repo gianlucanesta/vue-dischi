@@ -29,9 +29,9 @@
 @import '../style/variables.scss';
 
 .album-square {
-    width: 200px;
+    width: 190px;
     height: 350px;
-    margin: 75px 20px 0 20px;
+    margin: 0 20px 75px 20px;
     background-color: $primary-color;
     
     
@@ -64,6 +64,11 @@
         font-size: 14px;
     }
     
+}
+
+.album-square:hover {
+    background-color: #3d4e5f;
+    cursor: pointer;
 }
 
 </style>
